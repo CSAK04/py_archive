@@ -1,0 +1,11 @@
+a="ab,cd.e fg,h,a"
+print(a.lower())
+print(a.upper())
+print(a.count("a"))
+print(a.find("a"))
+print(a.rfind("a"))
+print(a.split(","))
+print(a.split(" "))
+print(a.replace("a","b"))
+print(a.partition(","))
+print(a.index('e'))
